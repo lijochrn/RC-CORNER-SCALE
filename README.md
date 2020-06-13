@@ -16,7 +16,7 @@ Items Needed
 
 Steps involved.
 
-1. Wire the Loadcell, ADC and Arduino as in the picture.
+1. Wire the Loadcell, ADC and Arduino as in the picture. Fritz file is attacthed.
 
 2. Download the LCD and HX711 ADC library and include in the IDE project.
 
