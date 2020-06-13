@@ -27,17 +27,26 @@ LCD i2C Library https://www.arduinolibraries.info/libraries/liquid-crystal-i2-c
 3. Calibrating the Loadcell's
 
 Before using Loadcells for measuring each of them have to be calibrated.
+
 For that open the sketch "Calibration" from Examples of HX711_ADC library.
+
 Edit the calibration file Dout as A0 and SCK as 2. Uploading this sketch will calibrate the Front Right Loadcell Only.
 
-Download the calibraion sketch to Arduino and open the Serial Plotter. [Select correct baudrate, else messages wont be displayed correctly]. 
+Download the calibraion sketch to Arduino and open the Serial Plotter. 
+[Select correct baudrate, else messages wont be displayed correctly]. 
+
 Ensure no loads are placed on loadcell, enter "t" and send. Tare operation is performed. 
+
 Place a known weight on the platform. For example I have placed 60.0 grams enter 60.0 and send.
+
 Calibration factor for the this loadcell will be displayed.
+
 Note the Calibration factor. 
 
 Edit the calibration file Dout as A1 and SCK as 3. Uploading this sketch will calibrate the Front Left Loadcell Only.
+
 Note the Calibration factor. 
+
 Repeat the steps for other two loadcells.
 
 4. Copy paste the code.
