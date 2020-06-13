@@ -13,6 +13,7 @@ Items Needed
 6. Soldering Iron
 7. Push Buttons - 2
 8. Plastic box -1
+9. Resistor 220KOhms - 2 nos
 
 Steps involved.
 
