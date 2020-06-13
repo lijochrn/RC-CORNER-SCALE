@@ -4,6 +4,7 @@ Hello All,
 Lets make a DIY RC-CORNER-WEIGHT SCALE
 
 Items Needed
+
 1. Load Cell 2 Kg -  4
 2. HX711 ADC Module -  4
 3. Arduino Uno -1
@@ -14,14 +15,17 @@ Items Needed
 8. Plastic box -1
 
 Steps involved.
+
 1. Wire the Loadcell, ADC and Arduino as in the picture.
 
 2. Download the LCD and HX711 ADC library and include in the IDE project.
+
 HX711_ADC Library https://github.com/olkal/HX711_ADC
 LCD i2C Library https://www.arduinolibraries.info/libraries/liquid-crystal-i2-c
 
 
 3. Calibrating the Loadcell's
+
 Before using Loadcells for measuring each of them have to be calibrated.
 For that open the sketch "Calibration" from Examples of HX711_ADC library.
 Edit the calibration file Dout as A0 and SCK as 2. Uploading this sketch will calibrate the Front Right Loadcell Only.
@@ -37,11 +41,17 @@ Note the Calibration factor.
 Repeat the steps for other two loadcells.
 
 4. Copy paste the code.
+
 Note: Edit the calibration factor obtained for each laodcell in main sketch.
+
   calibrationValue_1 = 1070.13; 
+	
   calibrationValue_2 = 1145.97; 
+	
   calibrationValue_3 = 1154.0; 
+	
   calibrationValue_4 = 1056.95; 
+	
 In my case above values are obtained. You must Enter your loadcell's value else it wont work correctly.
 
 5. Upload.
